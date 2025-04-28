@@ -1,4 +1,29 @@
-venv/
+# Python bytecode files
 __pycache__/
-*.pyc
-.Ds_Store
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Model files (if large or private)
+*.pt
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Others
+*.bak
+*.tmp
